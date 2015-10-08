@@ -5,5 +5,7 @@ class ApplicationController < ActionController::Base
 
 
   def hello 
-  	render :text "first rails app!" 
-end
+  	render text: "first rails app!" 
+  end
+
+end 
