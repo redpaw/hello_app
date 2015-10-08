@@ -8,4 +8,9 @@ class ApplicationController < ActionController::Base
   	render text: "first rails app!" 
   end
 
+
+  def goodbye 
+  	 render text: "I am not a llama"
+  	end 
+  	
 end 
